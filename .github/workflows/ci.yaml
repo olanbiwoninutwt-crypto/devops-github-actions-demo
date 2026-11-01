@@ -20,7 +20,7 @@ jobs:
         run: echo "Building the application..."
 
       - name: test
-        run: echo"Running tests..."
+        run: echo "Running tests..."
         
       - name: success
-        run: echo"ci pipeline completed sucessfully "
+        run: echo "ci pipeline completed sucessfully "
