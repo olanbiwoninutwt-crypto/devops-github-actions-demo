@@ -14,7 +14,7 @@ jobs:
         run: echo "Hello from DevOps Class"
 
       - name: show files
-        run: ls - la
+        run: ls -la
          
       - name: build
         run: echo"Building the application..."
