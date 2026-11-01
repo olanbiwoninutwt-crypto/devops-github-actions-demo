@@ -1,0 +1,26 @@
+name: my first ci pipeline
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Say hello
+        run: echo "Hello from DevOps Class"
+
+      - name: show files
+        run: ls - la
+         
+      - name: build
+        run: echo"Building the application..."
+
+      - name: test
+        run: echo"Running tests..."
+        
+      - name: success
+        run: echo"ci pipeline completed sucessfully "
